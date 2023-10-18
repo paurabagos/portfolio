@@ -19,10 +19,10 @@
     <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body class="d-flex flex-column h-100 bg-light">
+<body class="d-flex flex-column h-100 bg-dark">
     <main class="flex-shrink-0">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
             <div class="container px-5">
                 <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Paula Rábago Saavedra</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -40,21 +40,161 @@
 
 
 
-
-        <div class="accordion" id="accordionExample">
+        <div class="accordion" id="accordionGrafico">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                        Diseño Industrial
+                        Diseño Gráfico
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionGrafico" style="">
                     <div class="accordion-body">
                         <!-- Portfolio Section-->
                         <section class="page-section portfolio" id="portfolio">
                             <div class="container">
                                 <!-- Portfolio Section Heading-->
-                                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio Industrial</h2>
+                                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Diseño Gráfico</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Grid Items-->
+                                <div class="row justify-content-center">
+                                    <!-- Portfolio Item 1-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                            </div>
+                                            <img class="img-fluid" src="assets/industrial/suavitelcover.png" alt="..." />
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item 2-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                            </div>
+                                            <img class="img-fluid" src="assets/industrial/multiusoscover.png" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionFotografia">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Fotografía
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFotografia" style="">
+                    <div class="accordion-body">
+                        <!-- Portfolio Section-->
+                        <section class="page-section portfolio" id="portfolio">
+                            <div class="container">
+                                <!-- Portfolio Section Heading-->
+                                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Fotografía</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Grid Items-->
+                                <div class="row justify-content-center">
+                                    <!-- Portfolio Item 1-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                            </div>
+                                            <img class="img-fluid" src="assets/industrial/suavitelcover.png" alt="..." />
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item 2-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                            </div>
+                                            <img class="img-fluid" src="assets/industrial/multiusoscover.png" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionIdentidad">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Identidad
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                    <div class="accordion-body">
+                        <!-- Portfolio Section-->
+                        <section class="page-section portfolio" id="portfolio">
+                            <div class="container">
+                                <!-- Portfolio Section Heading-->
+                                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Identidad</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Grid Items-->
+                                <div class="row justify-content-center">
+                                    <!-- Portfolio Item 1-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                            </div>
+                                            <img class="img-fluid" src="assets/industrial/suavitelcover.png" alt="..." />
+                                        </div>
+                                    </div>
+                                    <!-- Portfolio Item 2-->
+                                    <div class="col-md-6 col-lg-4 mb-5">
+                                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                            </div>
+                                            <img class="img-fluid" src="assets/industrial/multiusoscover.png" alt="..." />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionIndustrial">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Diseño Industrial
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="">
+                    <div class="accordion-body">
+                        <!-- Portfolio Section-->
+                        <section class="page-section portfolio" id="portfolio">
+                            <div class="container">
+                                <!-- Portfolio Section Heading-->
+                                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Diseño Industrial</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -178,7 +318,6 @@
                 </div>
             </div>
         </div>
-
 
 
 
