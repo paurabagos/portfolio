@@ -22051,7 +22051,7 @@ fieldset:disabled .btn {
 
 .text-secondary {
     --bs-text-opacity: 1;
-    color: #ea6852 !important;
+    color: #57b6b2 !important;
 }
 
 .text-success {
@@ -26830,4 +26830,29 @@ main,
 body,
 .accordion-item {
     background-color: #241E1C !important;
+}
+
+.text-secondary.grafico {
+    --bs-text-opacity: 1;
+    color: #a5c5ed !important;
+}
+
+.text-secondary.fotografia {
+    --bs-text-opacity: 1;
+    color: #ffc844 !important;
+}
+
+.text-secondary.identidad {
+    --bs-text-opacity: 1;
+    color: #ea6852 !important;
+}
+
+.text-secondary.industrial {
+    --bs-text-opacity: 1;
+    color: #57b6b2 !important;
+}
+
+.linkportafolio {
+    font-weight: bold;
+    color: #a5c5ed;
 }
