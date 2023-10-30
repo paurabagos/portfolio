@@ -12831,8 +12831,9 @@ html {
     background-color: rgba(26, 188, 156, 0.9);
 }
 
-.portfolio .portfolio-item .portfolio-item-caption:hover {
-    opacity: 1;
+.portfolio .portfolio-item .portfolio-item-caption:hover,
+.portfolio .portfolio-item .portfolio-item-caption.hovergrafico:hover {
+    opacity: 0.8;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
@@ -26855,4 +26856,12 @@ body,
 .linkportafolio {
     font-weight: bold;
     color: #a5c5ed;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption.hovergrafico {
+    background-color: #a5c5ed;
+}
+
+.btn-primary.botongrafico {
+    background-color: #a5c5ed !important;
 }
