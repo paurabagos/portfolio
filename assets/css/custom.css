@@ -1,3 +1,11 @@
+:root {
+    --swiper-theme-color: #93363d;
+}
+
+body {
+    max-width: 98%;
+}
+
 .profile {
     border-radius: 25px;
 }
